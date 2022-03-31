@@ -6,8 +6,6 @@
         <variable
             name="myName"
             type="com.example.aboutmeapp.MyName" />
-        android:text="@={myName.name}"
-
     </data>
 
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
@@ -26,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/greet" />
+            android:text="@={myName.name}" />
 
         <EditText
             android:id="@+id/nickname_edit"

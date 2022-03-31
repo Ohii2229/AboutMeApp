@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
             updateNickname(it)
         }
         binding.myName = myName
+
     }
 
     private fun addNickname(view: View) {
